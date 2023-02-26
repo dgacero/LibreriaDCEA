@@ -1,0 +1,12 @@
+/home/voyager/LibreriaDCEA/Shared/bin/Debug/net7.0/LibreriaDCEA.Shared.deps.json
+/home/voyager/LibreriaDCEA/Shared/bin/Debug/net7.0/LibreriaDCEA.Shared.dll
+/home/voyager/LibreriaDCEA/Shared/bin/Debug/net7.0/LibreriaDCEA.Shared.pdb
+/home/voyager/LibreriaDCEA/Shared/obj/Debug/net7.0/LibreriaDCEA.Shared.csproj.AssemblyReference.cache
+/home/voyager/LibreriaDCEA/Shared/obj/Debug/net7.0/LibreriaDCEA.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/voyager/LibreriaDCEA/Shared/obj/Debug/net7.0/LibreriaDCEA.Shared.AssemblyInfoInputs.cache
+/home/voyager/LibreriaDCEA/Shared/obj/Debug/net7.0/LibreriaDCEA.Shared.AssemblyInfo.cs
+/home/voyager/LibreriaDCEA/Shared/obj/Debug/net7.0/LibreriaDCEA.Shared.csproj.CoreCompileInputs.cache
+/home/voyager/LibreriaDCEA/Shared/obj/Debug/net7.0/LibreriaDCEA.Shared.dll
+/home/voyager/LibreriaDCEA/Shared/obj/Debug/net7.0/refint/LibreriaDCEA.Shared.dll
+/home/voyager/LibreriaDCEA/Shared/obj/Debug/net7.0/LibreriaDCEA.Shared.pdb
+/home/voyager/LibreriaDCEA/Shared/obj/Debug/net7.0/ref/LibreriaDCEA.Shared.dll

@@ -1,0 +1,26 @@
+﻿@page "/cart"
+@using LibreriaDCEA.Shared.Models
+@using LibreriaDCEA.Shared.Services
+@inject CartService CartService
+
+<PageTitle>Carrito</PageTitle>
+
+@if(@CartService.SelectedItems.Count == 1) {
+    <h3>Tienes 1 libro en el carrito:</h3>
+}
+else {
+    <h3>Tienes @CartService.SelectedItems.Count libros en el carrito:</h3>
+}
+
+<BookList Books="CartService.SelectedItems"></BookList>
+
+<h5>Total: $@total</h5>
+
+@code {
+    float total = 0.0f;
+    protected override void OnInitialized() {
+        foreach(var book in CartService.SelectedItems) {
+            total += book.Price;
+        }
+    }
+}

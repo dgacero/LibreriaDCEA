@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Kb8yCt5Of3gu7vNJrONfZMBjswIQJ2c8GlWiy7HXarTfy5JeKWfojOShfXR2fYx2aCHAtgrBriomJ1W7LgnXQ==",
+  "success": true,
+  "projectFilePath": "/home/voyager/LibreriaDCEA/Shared/LibreriaDCEA.Shared.csproj",
+  "expectedPackageFiles": [
+    "/home/voyager/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

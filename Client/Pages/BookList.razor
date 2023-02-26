@@ -1,0 +1,71 @@
+@using LibreriaDCEA.Shared.Models
+@using LibreriaDCEA.Shared.Services
+@inject CartService CartService
+
+<style>
+.card-big {
+    width: 18rem;
+    height: 40rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.card-small {
+    width: 18rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.card-image-left {
+    display:flex;
+    flex: 1 1 auto;
+}
+</style>
+
+@if(DisplayAllInfo) {
+    <div class="row">
+        @foreach(var book in Books) {
+            <div class="card col-auto card-big">
+                <img class="card-img-top" src=@book.Image alt="Book image">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@book.Title</h5>
+                    <p class="card-text">
+                        por @book.Author
+                        <br>
+                        <b>ISBN-13:</b> @book.ISBN
+                        <br>
+                        <b>Edición:</b> @book.Edition
+                        <br>
+                        <b>Editorial:</b> @book.Editorial
+                        <br>
+                        <b>Precio:</b> $@book.Price
+                    </p>
+                    <button class="btn btn-primary mt-auto" type="button" @onclick="() => CartService.AddToCart(book.Id)">
+                        Agregar al carrito
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+}
+else {
+    <div class="row">
+        @foreach(var book in Books) {
+            <div class="card col-auto card-small" style="">
+                <div class="card-image-left">
+                    <img src=@book.Image style="max-width:60%; max-height:60%;" alt="Book image">
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text"><b>Precio:</b> $@book.Price</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    [Parameter] public List<Book> Books { get; set; }
+    [Parameter] public bool DisplayAllInfo { get; set; }
+}

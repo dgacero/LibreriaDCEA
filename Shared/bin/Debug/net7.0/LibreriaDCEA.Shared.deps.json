@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "LibreriaDCEA.Shared/1.0.0": {
+        "runtime": {
+          "LibreriaDCEA.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibreriaDCEA.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

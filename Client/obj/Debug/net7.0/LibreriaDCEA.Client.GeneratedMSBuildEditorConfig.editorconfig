@@ -1,0 +1,49 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = LibreriaDCEA.Client
+build_property.RootNamespace = LibreriaDCEA.Client
+build_property.ProjectDir = /home/voyager/LibreriaDCEA/Client/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/voyager/LibreriaDCEA/Client
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/voyager/LibreriaDCEA/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/voyager/LibreriaDCEA/Client/Pages/BookList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/voyager/LibreriaDCEA/Client/Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/voyager/LibreriaDCEA/Client/Pages/Catalogue.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0YWxvZ3VlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/voyager/LibreriaDCEA/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/voyager/LibreriaDCEA/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/voyager/LibreriaDCEA/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-canmsjjjrx
+
+[/home/voyager/LibreriaDCEA/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-u0qqmg8ijf

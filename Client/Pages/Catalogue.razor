@@ -1,0 +1,11 @@
+﻿@page "/catalogue"
+@using LibreriaDCEA.Shared.Models
+@using LibreriaDCEA.Shared.Services
+
+<PageTitle>Catálogo</PageTitle>
+
+<BookList Books="Books" DisplayAllInfo="true"></BookList>
+
+@code {
+    public List<Book> Books { get; set; } = BookListService.Books;
+}
